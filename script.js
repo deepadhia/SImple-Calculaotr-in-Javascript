@@ -7,7 +7,7 @@ for (var i = 0; i < buttons.length; i++) {
         buttonText = event.target.innerText;
         console.log("Button is " + buttonText);
         if (buttonText == 'AC') {
-            screenValue = "0";
+            screenValue = "";
             screen.value = screenValue;
         }
         else if (buttonText == '=') {
